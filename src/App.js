@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 function App() {
 
   // use Audio constructor to create HTMLAudioElement
@@ -36,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3 className="mb-4">Play an mp3 file 
+      <h3 className="mb-4">Play an mp3 file</h3> 
 
       <input type="button" className="btn btn-primary mr-2" value="Play" onClick={playSound}></input>
       <input type="button" className="btn btn-warning mr-2" value="Pause" onClick={pauseSound}></input>
